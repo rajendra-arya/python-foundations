@@ -47,7 +47,7 @@ else:
 
 ```
 
-## Ternary opertion
+## Ternary operation
 `type('content')` -> to check the datatype, think it as a wrapper
 `int(your desired var/input)` -> convert to num if its a int(not even float) else it gonna give error. think it as a wrapper too.
 `py int.input('enter no:')` -> convert numerical string into number.
