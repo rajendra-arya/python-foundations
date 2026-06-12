@@ -55,12 +55,15 @@ for  idx,item in enumerate(menu,start=1):
 ```
 
 ## with zip()
-- to combine two or more list
-- `zip(iterables)` 
-- `zip(a, b, strict=False)` (default) Truncates to the shortest length. Discards extra items.
-- `zip(a, b, strict=True)` Enforces equal item counts.Raises ValueError
-- `itertools.zip_longest(a, b)` Extends to match the longest length.Fills gaps with None. 
+- helps to combine multiple list together
+- returns each combination in tuples.
 - Iterate over several iterables in parallel, producing tuples with an item from each one.
+- sytax:
+    - `zip(iterables)` 
+    - `zip(a, b, strict=False)` (default) Truncates to the shortest length. Discards extra items.
+    - `zip(a, b, strict=True)` Enforces equal item counts.Raises ValueError
+    - `itertools.zip_longest(a, b)` Extends to match the longest length.Fills gaps with None. 
+
 
 ```py
 names = ['raj','sanjay','allu','rashmika']
