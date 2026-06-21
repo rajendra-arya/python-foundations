@@ -3,11 +3,10 @@
 ## mutable and immutable
 - no. are mutbale 
 - 2  or 12 both are mutable
-
 - id(2) -> id of no. means the memory id is immutable
 
 
-Dataypes:
+## Dataypes:
 1. Numbers : integers 
 - +,-,/ are same
 - /  with decimal
@@ -122,7 +121,7 @@ we want a list of just this string.
 the solution is bytearray 
 
 3. **bytearray()**
-- its  a method bytearray(b'string')
+- its a method bytearray(b'string')
 - returns a new array of bytes.
 - mutable sequence of integers 0-256
 - u cant use method same way like list
