@@ -175,23 +175,22 @@ print(f"is 'cloves' in optional spices?{'cloves' in optional_spices}")
  
    - z_dict = {key1:'value1', key2:'value2'}
 
--  x_dict['key1'] -> get value -
-- delete item -> del x_dict['key1']
-- 'key2' in x_dict -> membership testing
-- x_dict.keys() -> get all keys
-- x_dict.values() -> get all values
-- x_dict.items() -> get all pair in each tuple
-- x_dict.popitem() ->remove last item(key-value pair)
-
-- x_dict.update(z_dict) -> to z_dict items after x_dict , basically merging
+-  `x_dict['key1']` -> get value -
+-  `del x_dict['key1']` -> delete item
+- `'key2' in x_dict` -> membership testing
+- `x_dict.keys()` -> get all keys
+- `x_dict.values()` -> get all values
+- `x_dict.items()` -> get all pair in each tuple
+- `x_dict.popitem()` ->remove last item(key-value pair)
+- `x_dict.update(z_dict)` -> to join z_dict items after x_dict , basically merging
 
 - handling unavailable keys in the dict?
    -  x_dict['note'] -> it wil crash the application
-   -  safe code 
-   .get -> works like ternary operator
-   x_dict.get['desiredkey','fallback/default value']
-   `x_dict.get['note','No note'] `
-   if note key not present returns no note
+   -  safe approach :
+   - .get -> it works like ternary operator
+      `x_dict.get['desiredkey','fallback/default value']`
+      `x_dict.get['note','No note'] `
+   - if note key not present returns no note
 - all methods we studied in set can be applied in the dict as well.
 
 
